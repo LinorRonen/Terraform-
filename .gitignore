@@ -1,0 +1,28 @@
+# Ignore Terraform files
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.backup
+
+# Ignore local Terraform files
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.tfvars
+
+# Ignore sensitive files (e.g., private keys)
+*.pem
+*.key
+
+# Ignore the default IDE config directories and files
+.idea/
+.vscode/
+
+# Ignore any other temporary files
+*.log
+*.out
+*.swp
+
+# Ignore zip files
+*.zip
+
